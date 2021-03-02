@@ -47,13 +47,13 @@ public class FirstSeleniumExample {
         button1.click();
         WebElement name= driver.findElement(By.cssSelector("#billing_first_name"));
        // name.click();
-        name.sendKeys("Priyanka");
+        name.sendKeys("kaveri");
         name.sendKeys(Keys.RETURN);
 
 
         WebElement secname= driver.findElement(By.xpath("//input[@id='billing_last_name']"));
         //secname.click();
-        secname.sendKeys("Kumar");
+        secname.sendKeys("MG");
         secname.sendKeys(Keys.RETURN);
 
 
@@ -73,7 +73,7 @@ public class FirstSeleniumExample {
 
         WebElement address1= driver.findElement(By.xpath("//input[@id='billing_city']"));
         //address1.click();
-        address1.sendKeys("xyz");
+        address1.sendKeys("bangalore");
         address1.sendKeys(Keys.RETURN);
 
 
